@@ -1,0 +1,77 @@
+// {
+// {
+//   "compilerOptions": {
+//     // Diretórios de entrada e saída:
+//     "rootDir": "./src",
+//     "outDir": "./dist",
+//     // Configurações de módulo e target para ESM moderno:
+//     "module": "nodenext",
+//     "target": "esnext",
+//     "moduleResolution": "node",
+//     "lib": [
+//       "esnext"
+//     ],
+//     // Tipos para Node.js:
+//     "types": [
+//       "node"
+//     ],
+//     // Mapas de origem e declarações para melhor manutenção:
+//     "sourceMap": true,
+//     "declaration": true,
+//     "declarationMap": true,
+//     // Verificações estritas para segurança de tipos:
+//     "strict": true,
+//     "noUncheckedIndexedAccess": true,
+//     "exactOptionalPropertyTypes": true,
+//     // Configurações relacionadas a JSX (se usar React):
+//     "jsx": "react-jsx",
+//     // Controle do comportamento do módulo:
+//     "verbatimModuleSyntax": true,
+//     "isolatedModules": true,
+//     "noUncheckedSideEffectImports": true,
+//     "moduleDetection": "force",
+//     // Outras opções úteis:
+//     "skipLibCheck": true
+//   },
+//   "include": [
+//     "src/**/*"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "dist"
+//   ]
+// }
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "types": [
+      "node"
+    ],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
